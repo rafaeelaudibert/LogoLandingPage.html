@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("background2.jpg");
+  background-image: url("../assets/background2.jpg");
   background-position: center;
   /* Center the image */
   background-repeat: no-repeat;
@@ -84,4 +84,4 @@ label.required::after {
     padding-top: 7rem;
   }
 }
-/*# sourceMappingURL=example_landing_page.css.map */
+/*# sourceMappingURL=main.css.map */
