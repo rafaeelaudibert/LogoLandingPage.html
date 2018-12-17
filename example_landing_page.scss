@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('background2.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-attachment: fixed;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.col-md-12 {
+    padding-bottom: 0.6rem;
+}
+
+label.required::after {
+    content: ' *';
+    color: red;
+}
+
+.logo {
+    margin-bottom: 2rem;
+}
+
+.container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact {
+
+        
+    .header {        
+        border-radius: 0.7rem 0.7rem 0rem 0rem;
+        width: 100%;        
+        padding: 2rem 0;
+        background-color: rgb(242, 147, 0);
+        color: white;
+    }
+
+    form {
+        border-radius: 0rem 0rem 0.7rem 0.7rem;
+        padding: 2rem;
+        color: white;        
+        background-color: #121212;
+        -webkit-box-shadow: 18px 25px 22px -20px rgba(0,0,0,0.75);
+        -moz-box-shadow: 18px 25px 22px -20px rgba(0,0,0,0.75);
+        box-shadow: 18px 25px 22px -20px rgba(0,0,0,0.75);
+
+        .row {
+            margin-top: 0.5rem;
+        }
+
+        button.submit {
+            margin-top: 1rem;
+        }
+    }
+}
+
+.footer {    
+    padding: 1rem 2rem;
+    background-color: rgb(151, 132, 104);
+    -webkit-box-shadow: 0px -27px 50px -38px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px -27px 50px -38px rgba(0,0,0,0.6);
+    box-shadow: 0px -27px 50px -38px rgba(0,0,0,0.6);
+
+    a {
+        color: white;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    .address {
+        color: white;
+    }
+}
+
+@media (min-width: 990px) {
+    .contact.header {
+        padding-top: 7rem;
+    }
+}
