@@ -1,4 +1,3 @@
-# example-landing-page
-Landing Page
+# Logo LandingPage
 
-Basic landing page for a e-book download
+Basic landing page for an e-book download
